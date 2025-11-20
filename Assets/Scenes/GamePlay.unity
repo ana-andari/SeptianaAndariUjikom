@@ -592,9 +592,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b6004c307669504e81659bcb02ee031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musuhKapsul: {fileID: 4589430095880322660, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-  daftarGambarMusuh:
-  - {fileID: -9095717837082945937, guid: a74d5426c08745e42a39e829e22d61af, type: 3}
+  musuhKapsul: {fileID: 696611238404635540, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
+  musuhKotak: {fileID: 7350393451431402676, guid: 83b81f8c09f09e747a20e05aad3462c9, type: 3}
+  musuhHexagon: {fileID: 1744987102045187445, guid: 155715ce9a6a5ea479262caec3093c34, type: 3}
   masihSpawn: 1
 --- !u!4 &1001263734
 Transform:
@@ -928,120 +928,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050428001}
   m_CullTransparentMesh: 1
---- !u!1001 &6812775429580348846
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 977.35144
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 501.36337
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4205337952553287262, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4589430095880322660, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
-      propertyPath: m_Name
-      value: MusuhKapsul
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 470c9f35485d59f4798fb4e054733e35, type: 3}
---- !u!1001 &6843229640240927651
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6575895579514358206, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_Name
-      value: Peluru
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 977.35144
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 501.36337
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9200207827902320923, guid: a28c2035811003d45912770cbf0aa118, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a28c2035811003d45912770cbf0aa118, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1051,5 +937,3 @@ SceneRoots:
   - {fileID: 914848112}
   - {fileID: 762273240}
   - {fileID: 1001263734}
-  - {fileID: 6812775429580348846}
-  - {fileID: 6843229640240927651}
