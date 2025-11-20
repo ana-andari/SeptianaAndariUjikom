@@ -7,12 +7,12 @@ public class PlaySuara : MonoBehaviour
     public AudioSource _SFXEat;
     public AudioSource _SFXThrowFood;
 
-
-    public void putarSFXGamePlay()
+    void Start()
     {
         _SFXGameplay.Play();
-
     }
+
+
     public void putarSFXDestroyAnimal()
     {
         _SFXDestroyAnimal.Play();
